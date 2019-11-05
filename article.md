@@ -72,7 +72,7 @@ function download(url) {
 }
 ```
 
-- 保存图片到本地目录。因为一篇md文章里有很多张图片，所以简单粗暴点，图片名称一次为：1.jpg、2.jpg、3.jpg...
+- 保存图片到本地目录。因为一篇md文章里有很多张图片，所以简单粗暴点，图片名称依次为：1.jpg、2.jpg、3.jpg...
 ```
 function saveImg(dirName, imgFileName, imgData) {
   const dirPath = path.resolve(postDirPath, dirName);
