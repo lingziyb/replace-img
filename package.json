@@ -1,0 +1,28 @@
+{
+  "name": "replace-img",
+  "version": "1.0.0",
+  "description": "把md文档中的图片地址换成相对地址",
+  "main": "index.js",
+  "bin": {
+    "replace-img": "index.js"
+  },
+  "scripts": {
+    "dev": "node ./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lingziyb/replace-img.git"
+  },
+  "keywords": [
+    "md",
+    "img",
+    "path",
+    "jianshu"
+  ],
+  "author": "lingzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lingziyb/replace-img/issues"
+  },
+  "homepage": "https://github.com/lingziyb/replace-img#readme"
+}
